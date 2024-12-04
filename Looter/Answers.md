@@ -12,9 +12,12 @@ Exercice 3 :
 
 4. Ajout-item
 
-Exercice 1:
+1:
 2. Il n'y a aucune erreur dans la console indiquant qu'il n'y a aucun transfert d'information, donc la fonction n'envoie rien, pas de lien entre la méthode et l'affichage.
 
-Exercice 2:
+2:
 2. Cela refonctionne car on a reconnecter la function à l'affiche à l'aide des instructio "ObservableObject", "@Pubblished" et "@StateObject".
 3. "@StateObject" garantit que l'object est observabe et est créé une seule fois, à contrario observableObjet est utilisé pour gérer les mises à jour des objets coté interface utilisateur et @State est utilisé pour initialisé des valeurs qui sont mis à jour durant la durée de vie de l'interface.
+
+Exercice 5 :
+2. Pour corriger cette erreur, on doit faire en sorte que la notre structure de fichier soit conforme à celle d'identfiable en ajoutant un identifiant unique, comme un UUID.
